@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Brandon Shumba</title>
-</head>
+# Brandon Shumba Engineering Portfolio
 
-<body>
+This repository contains my personal engineering portfolio website.
 
-<h1>Brandon Shumba</h1>
-
-<p>
-Final-Year Electrical & Control Engineering Student
-</p>
-
-<p>
-Portfolio website coming soon.
-</p>
-
-</body>
-</html>
+## Interests
+- Automation
+- Embedded Systems
+- Control Systems
+- Robotics

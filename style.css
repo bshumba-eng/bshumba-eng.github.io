@@ -1,16 +1,42 @@
+/* ===== ENTIRE WEBSITE ===== */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #04169B;
-    color: #FFFFFF;
+    background: #F7FEFF;
+    color: #000000;
     line-height: 1.6;
 }
 
-/* HERO SECTION */
+/* ===== NAVIGATION ===== */
+
+nav {
+    background: #52C2E1;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* ===== HERO SECTION ===== */
+
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: #111827;
+    background: #52C2E1;
 }
 
 .hero h1 {
@@ -20,40 +46,65 @@ body {
 
 .hero p {
     font-size: 18px;
-    color: #94a3b8;
 }
 
 .hero a {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 24px;
-    background: #38bdf8;
+    background: white;
     color: black;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
 }
 
-/* SECTIONS */
+/* ===== SECTIONS ===== */
+
 section {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     padding: 60px 20px;
 }
 
 h2 {
-    color: #38bdf8;
+    color: #52C2E1;
 }
 
-/* LISTS */
+/* ===== SKILLS BOXES ===== */
+
 ul {
-    padding: 0;
     list-style: none;
+    padding: 0;
 }
 
 ul li {
-    background: #1e293b;
+    background: #52C2E1;
     padding: 10px;
     margin: 8px 0;
     border-radius: 6px;
+}
+
+/* ===== CONTACT FORM ===== */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #52C2E1;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px;
+    background: #52C2E1;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
 }

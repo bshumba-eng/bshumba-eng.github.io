@@ -129,3 +129,12 @@ button {
     max-width: 700px;
     margin: 20px auto;
 }
+
+/* ===== ABOUT SUMMARY ===== */
+
+.about-summary {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,5 +1,4 @@
 /* ===== ENTIRE WEBSITE ===== */
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -9,45 +8,40 @@ body {
 }
 
 /* ===== NAVIGATION ===== */
-
 nav {
     background: #52C2E1;
     padding: 15px;
 }
-
 nav ul {
     display: flex;
     justify-content: center;
     gap: 30px;
-
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 nav a {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
 }
+nav a:hover {
+    text-decoration: underline;
+}
 
 /* ===== HERO SECTION ===== */
-
 .hero {
     text-align: center;
     padding: 100px 20px;
     background: #52C2E1;
 }
-
 .hero h1 {
     font-size: 50px;
     margin: 0;
 }
-
 .hero p {
     font-size: 18px;
 }
-
 .hero a {
     display: inline-block;
     margin-top: 20px;
@@ -58,26 +52,25 @@ nav a {
     border-radius: 8px;
     font-weight: bold;
 }
+.hero a:hover {
+    opacity: 0.9;
+}
 
 /* ===== SECTIONS ===== */
-
 section {
     max-width: 1000px;
     margin: auto;
     padding: 60px 20px;
 }
-
 h2 {
     color: #52C2E1;
 }
 
 /* ===== SKILLS BOXES ===== */
-
 ul {
     list-style: none;
     padding: 0;
 }
-
 ul li {
     background: #52C2E1;
     padding: 10px;
@@ -86,20 +79,18 @@ ul li {
 }
 
 /* ===== CONTACT FORM ===== */
-
 form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-width: 600px;
 }
-
 input,
 textarea {
     padding: 10px;
     border: 1px solid #52C2E1;
     border-radius: 6px;
 }
-
 button {
     padding: 12px;
     background: #52C2E1;
@@ -107,10 +98,13 @@ button {
     border: none;
     border-radius: 6px;
     font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.9;
 }
 
 /* ===== PROFILE PHOTO ===== */
-
 .profile-photo {
     width: 250px;
     height: auto;
@@ -122,7 +116,6 @@ button {
 }
 
 /* ===== PROFESSIONAL TAGLINE ===== */
-
 .tagline {
     font-size: 22px;
     font-weight: bold;
@@ -131,10 +124,50 @@ button {
 }
 
 /* ===== ABOUT SUMMARY ===== */
-
 .about-summary {
     max-width: 700px;
     margin: 20px auto;
     text-align: center;
     font-size: 18px;
+}
+
+/* ===== CV BUTTON ===== */
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.cv-button:hover {
+    opacity: 0.9;
+}
+
+/* ===== CONTACT INTRODUCTION ===== */
+.contact-intro {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+/* ===== CONTACT LINKS ===== */
+#contact a {
+    color: #52C2E1;
+    font-weight: bold;
+    text-decoration: none;
+}
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* ===== PHOTO GALLERY ===== */
+.gallery-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
 }

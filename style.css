@@ -1,214 +1,710 @@
-/* ===== ENTIRE WEBSITE ===== */
+```css
+/* =========================================================
+   BRANDON SHUMBA - ENGINEERING PORTFOLIO
+   Main Website Stylesheet
+   ========================================================= */
+
+
+/* =========================================================
+   1. GLOBAL WEBSITE SETTINGS
+   ========================================================= */
+
 body {
+
+    /* Remove the browser's default page margin */
     margin: 0;
+
+    /* Main website font */
     font-family: Arial, sans-serif;
+
+    /* Main website background */
     background: #F7FEFF;
+
+    /* Main text colour */
     color: #000000;
+
+    /* Controls the spacing between lines of text */
     line-height: 1.6;
 }
 
-/* ===== NAVIGATION ===== */
+
+/* =========================================================
+   2. NAVIGATION BAR
+   ========================================================= */
+
 nav {
+
+    /* Blue navigation background */
     background: #52C2E1;
+
+    /* Space inside the navigation bar */
     padding: 15px;
 }
+
+
 nav ul {
+
+    /* Place navigation items in a row */
     display: flex;
+
+    /* Centre the navigation items */
     justify-content: center;
+
+    /* Space between navigation items */
     gap: 30px;
+
+    /* Allow navigation to wrap on smaller screens */
     flex-wrap: wrap;
+
+    /* Remove bullet points */
     list-style: none;
+
+    /* Remove default spacing */
     margin: 0;
     padding: 0;
 }
+
+
 nav a {
+
+    /* Remove underline from links */
     text-decoration: none;
+
+    /* Navigation text colour */
     color: #000000;
+
+    /* Make navigation text bold */
     font-weight: bold;
+
+    /* Smooth hover animation */
+    transition: 0.3s ease;
 }
+
+
 nav a:hover {
+
+    /* Underline the link when the mouse is over it */
     text-decoration: underline;
 }
 
-/* ===== HERO SECTION ===== */
+
+/* =========================================================
+   3. HERO / HOME SECTION
+   ========================================================= */
+
 .hero {
+
+    /* Centre everything inside the hero */
     text-align: center;
+
+    /* Large spacing around the hero content */
     padding: 100px 20px;
+
+    /* Main blue hero background */
     background: #52C2E1;
 }
+
+
 .hero h1 {
+
+    /* Large main heading */
     font-size: 50px;
+
+    /* Remove default heading margin */
     margin: 0;
 }
+
+
 .hero p {
+
+    /* Hero paragraph size */
     font-size: 18px;
 }
+
+
 .hero a {
+
+    /* Allows the link to behave like a button */
     display: inline-block;
+
+    /* Space above the button */
     margin-top: 20px;
+
+    /* Button size */
     padding: 12px 24px;
+
+    /* Button background */
     background: white;
+
+    /* Button text */
     color: black;
+
+    /* Remove underline */
     text-decoration: none;
+
+    /* Rounded corners */
     border-radius: 8px;
+
+    /* Bold button text */
     font-weight: bold;
+
+    /* Smooth animation */
+    transition: 0.3s ease;
 }
+
+
 .hero a:hover {
+
+    /* Slightly fade the button */
     opacity: 0.9;
 }
 
-/* ===== SECTIONS ===== */
+
+/* =========================================================
+   4. GENERAL WEBSITE SECTIONS
+   ========================================================= */
+
 section {
+
+    /* Prevent sections becoming excessively wide */
     max-width: 1000px;
+
+    /* Centre the section */
     margin: auto;
+
+    /* Space inside each section */
     padding: 60px 20px;
 }
+
+
 h2 {
+
+    /* Main section heading colour */
     color: #52C2E1;
 }
 
-/* ===== SKILLS BOXES ===== */
+
+/* =========================================================
+   5. TECHNICAL INTERESTS & SKILLS
+   ========================================================= */
+
 ul {
+
+    /* Remove bullet points */
     list-style: none;
+
+    /* Remove default padding */
     padding: 0;
 }
+
+
 ul li {
+
+    /* Blue skill boxes */
     background: #52C2E1;
+
+    /* Space inside each skill */
     padding: 10px;
+
+    /* Space between skills */
     margin: 8px 0;
+
+    /* Rounded corners */
     border-radius: 6px;
 }
 
-/* ===== CONTACT FORM ===== */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 600px;
-}
-input,
-textarea {
-    padding: 10px;
-    border: 1px solid #52C2E1;
-    border-radius: 6px;
-}
-button {
-    padding: 12px;
-    background: #52C2E1;
-    color: black;
-    border: none;
-    border-radius: 6px;
-    font-weight: bold;
-    cursor: pointer;
-}
-button:hover {
-    opacity: 0.9;
-}
 
-/* ===== PROFILE PHOTO ===== */
+/* =========================================================
+   6. PROFILE PHOTO
+   ========================================================= */
+
 .profile-photo {
+
+    /* Width of profile picture */
     width: 250px;
+
+    /* Prevent image overflowing on small screens */
     max-width: 100%;
+
+    /* Maintain original image proportions */
     height: auto;
+
+    /* Make the image circular */
     border-radius: 50%;
+
+    /* Space around image */
     margin-top: 20px;
     margin-bottom: 20px;
+
+    /* White border around image */
     border: 4px solid white;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+
+    /* Add depth */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* ===== PROFESSIONAL TAGLINE ===== */
+
+/* =========================================================
+   7. PROFESSIONAL TAGLINE
+   ========================================================= */
+
 .tagline {
+
+    /* Larger tagline text */
     font-size: 22px;
+
+    /* Bold text */
     font-weight: bold;
+
+    /* Prevent text becoming too wide */
     max-width: 700px;
+
+    /* Centre the text */
     margin: 20px auto;
 }
 
-/* ===== ABOUT SUMMARY ===== */
+
+/* =========================================================
+   8. ABOUT SUMMARY
+   ========================================================= */
+
 .about-summary {
+
+    /* Limit paragraph width */
     max-width: 700px;
+
+    /* Centre paragraph */
     margin: 20px auto;
+
+    /* Centre the text */
     text-align: center;
+
+    /* Text size */
     font-size: 18px;
 }
 
-/* ===== CV BUTTON ===== */
+
+/* =========================================================
+   9. CV BUTTON
+   ========================================================= */
+
 .cv-button {
+
+    /* Make the link behave like a button */
     display: inline-block;
+
+    /* Space above button */
     margin-top: 20px;
+
+    /* Button dimensions */
     padding: 12px 24px;
+
+    /* Button background */
     background: white;
+
+    /* Button text */
     color: black;
+
+    /* Remove underline */
     text-decoration: none;
+
+    /* Rounded corners */
     border-radius: 8px;
+
+    /* Bold text */
     font-weight: bold;
+
+    /* Smooth animation */
+    transition: 0.3s ease;
 }
+
+
 .cv-button:hover {
+
+    /* Slight hover effect */
     opacity: 0.9;
 }
 
-/* ===== CONTACT INTRODUCTION ===== */
+
+/* =========================================================
+   10. ENGINEERING JOURNEY
+   ========================================================= */
+
+/*
+    The Journey section will eventually contain:
+
+    Journey Card
+        ↓
+    Semester Card
+        ↓
+    Subject Card
+
+    This creates a clear visual hierarchy.
+*/
+
+
+/* ---------------------------------------------------------
+   10.1 MAIN JOURNEY CARDS
+   --------------------------------------------------------- */
+
+.journey-card {
+
+    /* White card background */
+    background: white;
+
+    /* Space inside the card */
+    padding: 25px;
+
+    /* Space between cards */
+    margin-bottom: 20px;
+
+    /* Rounded corners */
+    border-radius: 12px;
+
+    /* Subtle shadow */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+    /* Required for future animations */
+    position: relative;
+
+    /* Smooth movement when hovering */
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.journey-card:hover {
+
+    /* Move card slightly upwards */
+    transform: translateY(-3px);
+
+    /* Slightly stronger shadow */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ---------------------------------------------------------
+   10.2 SEMESTER CARDS
+   --------------------------------------------------------- */
+
+/*
+    Semester cards are currently using the
+    journey-card class in your HTML.
+
+    This section prepares the design for when
+    we give semesters their own class.
+*/
+
+.journey-semester {
+
+    /* Slightly different background */
+    background: #F7FEFF;
+
+    /* Space inside semester */
+    padding: 20px;
+
+    /* Space above and below */
+    margin-top: 20px;
+
+    /* Blue left border */
+    border-left: 5px solid #52C2E1;
+
+    /* Rounded corners */
+    border-radius: 8px;
+
+    /* Smooth animation */
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.journey-semester:hover {
+
+    /* Move semester slightly to the right */
+    transform: translateX(5px);
+
+    /* Add subtle depth */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ---------------------------------------------------------
+   10.3 SUBJECT CARDS
+   --------------------------------------------------------- */
+
+/*
+    Individual subjects will eventually
+    slide into the semester from the right.
+*/
+
+.journey-subject {
+
+    /* White background */
+    background: white;
+
+    /* Space inside subject card */
+    padding: 15px;
+
+    /* Space between subjects */
+    margin-top: 10px;
+
+    /* Rounded corners */
+    border-radius: 8px;
+
+    /* Subtle border */
+    border: 1px solid #E0E0E0;
+
+    /* Initial animation position */
+    opacity: 0;
+
+    transform: translateX(60px);
+
+    /* Animation will be controlled later */
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+}
+
+
+/*
+    When JavaScript adds the "active" class,
+    the subjects will move into position.
+*/
+
+.journey-subject.active {
+
+    /* Make the subject visible */
+    opacity: 1;
+
+    /* Move subject back to normal position */
+    transform: translateX(0);
+}
+
+
+/* =========================================================
+   11. PORTFOLIO / PROJECT CARDS
+   ========================================================= */
+
+.portfolio-card {
+
+    /* White project card */
+    background: white;
+
+    /* Space inside card */
+    padding: 25px;
+
+    /* Space between projects */
+    margin-bottom: 20px;
+
+    /* Rounded corners */
+    border-radius: 12px;
+
+    /* Card shadow */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+    /* Smooth hover animation */
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.portfolio-card:hover {
+
+    /* Lift project card slightly */
+    transform: translateY(-3px);
+
+    /* Stronger shadow */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================================
+   12. EVENTS & EXPERIENCES
+   ========================================================= */
+
+/*
+    Styling for events and experiences
+    will be expanded later.
+*/
+
+
+/* =========================================================
+   13. PHOTO GALLERY
+   ========================================================= */
+
+.gallery-photo {
+
+    /* Gallery image width */
+    width: 300px;
+
+    /* Maintain image proportions */
+    height: auto;
+
+    /* Rounded corners */
+    border-radius: 10px;
+
+    /* Space below image */
+    margin-bottom: 20px;
+
+    /* Subtle shadow */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================================================
+   14. CONTACT SECTION
+   ========================================================= */
+
 .contact-intro {
+
+    /* Limit paragraph width */
     max-width: 700px;
+
+    /* Centre paragraph */
     margin: auto;
+
+    /* Space below introduction */
     margin-bottom: 25px;
 }
 
-/* ===== CONTACT LINKS ===== */
+
+/* ---------------------------------------------------------
+   14.1 CONTACT LINKS
+   --------------------------------------------------------- */
+
 #contact a {
+
+    /* Blue links */
     color: #52C2E1;
+
+    /* Make links stand out */
     font-weight: bold;
+
+    /* Remove underline */
     text-decoration: none;
 }
+
+
 #contact a:hover {
+
+    /* Show underline when hovering */
     text-decoration: underline;
 }
 
-/* ===== PHOTO GALLERY ===== */
-.gallery-photo {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+
+/* ---------------------------------------------------------
+   14.2 CONTACT FORM
+   --------------------------------------------------------- */
+
+form {
+
+    /* Stack form elements vertically */
+    display: flex;
+
+    flex-direction: column;
+
+    /* Space between form fields */
+    gap: 10px;
+
+    /* Prevent form becoming too wide */
+    max-width: 600px;
 }
 
-/* ===== PORTFOLIO CARDS ===== */
 
-.portfolio-card {
-    background: white;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+input,
+textarea {
+
+    /* Space inside fields */
+    padding: 10px;
+
+    /* Blue border */
+    border: 1px solid #52C2E1;
+
+    /* Rounded corners */
+    border-radius: 6px;
+
+    /* Use the same font as the website */
+    font-family: inherit;
 }
 
-.portfolio-card:hover {
-    transform: translateY(-3px);
+
+button {
+
+    /* Button size */
+    padding: 12px;
+
+    /* Blue background */
+    background: #52C2E1;
+
+    /* Black text */
+    color: black;
+
+    /* Remove default border */
+    border: none;
+
+    /* Rounded corners */
+    border-radius: 6px;
+
+    /* Bold text */
+    font-weight: bold;
+
+    /* Show clickable cursor */
+    cursor: pointer;
+
+    /* Smooth animation */
+    transition: 0.3s ease;
 }
 
-/* ===== MOBILE RESPONSIVE DESIGN ===== */
+
+button:hover {
+
+    /* Slight hover effect */
+    opacity: 0.9;
+}
+
+
+/* =========================================================
+   15. MOBILE RESPONSIVE DESIGN
+   ========================================================= */
+
+/*
+    These rules apply when the screen width
+    is 600px or smaller.
+*/
 
 @media (max-width: 600px) {
+
+    /* Reduce hero spacing */
     .hero {
         padding: 60px 15px;
     }
+
+
+    /* Reduce main heading size */
     .hero h1 {
         font-size: 36px;
     }
-}
 
-/* ===== COLLEGE JOURNEY CARDS ===== */
 
-.journey-card {
-    background: white;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-}
+    /* Reduce navigation spacing */
+    nav ul {
+        gap: 15px;
+    }
 
-.journey-card:hover {
-    transform: translateY(-3px);
+
+    /* Reduce journey card padding */
+    .journey-card {
+        padding: 18px;
+    }
+
+
+    /* Make project cards more compact */
+    .portfolio-card {
+        padding: 18px;
+    }
+
 }
+```

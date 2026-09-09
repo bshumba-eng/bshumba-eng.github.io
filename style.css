@@ -456,15 +456,6 @@ ul li {
     /* Subtle border */
     border: 1px solid #E0E0E0;
 
-    /* Initial animation position */
-    opacity: 0;
-
-    transform: translateX(60px);
-
-    /* Animation will be controlled later */
-    transition:
-        opacity 0.5s ease,
-        transform 0.5s ease;
 }
 
 
@@ -473,14 +464,6 @@ ul li {
     the subjects will move into position.
 */
 
-.journey-subject.active {
-
-    /* Make the subject visible */
-    opacity: 1;
-
-    /* Move subject back to normal position */
-    transform: translateX(0);
-}
 
 
 /* =========================================================

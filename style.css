@@ -458,25 +458,43 @@ ul li {
     slide into the semester from the right.
 */
 
-.journey-subject {
+/* ---------------------------------------------------------
+   CLICKABLE SEMESTER HEADINGS
+   --------------------------------------------------------- */
 
-    /* White background */
-    background: white;
-
-    /* Space inside subject card */
-    padding: 15px;
-
-    /* Space between subjects */
-    margin-top: 10px;
-
-    /* Rounded corners */
-    border-radius: 8px;
-
-    /* Subtle border */
-    border: 1px solid #E0E0E0;
-
+.journey-semester h4 {
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
+.journey-semester h4:hover {
+    color: #52C2E1;
+}
+
+.journey-subject {
+    background: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+
+    /* Subjects start slightly to the right */
+    opacity: 0;
+    transform: translateX(60px);
+
+    /* Smoothly animate the changes */
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+}
+
+
+/* Subject becomes visible when JavaScript
+   adds the "active" class */
+.journey-subject.active {
+    opacity: 1;
+    transform: translateX(0);
+}
 
 /*
     When JavaScript adds the "active" class,

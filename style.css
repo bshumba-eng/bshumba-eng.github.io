@@ -383,6 +383,25 @@ ul li {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
 }
 
+/* ---------------------------------------------------------
+   CLICKABLE JOURNEY YEARS
+   --------------------------------------------------------- */
+
+.journey-year {
+
+    /* Makes it clear that the heading can be clicked */
+    cursor: pointer;
+
+    /* Smooth colour change when hovering */
+    transition: 0.3s ease;
+}
+
+
+.journey-year:hover {
+
+    /* Change the heading colour when the mouse is over it */
+    color: #52C2E1;
+}
 
 /* ---------------------------------------------------------
    10.2 SEMESTER CARDS

@@ -727,4 +727,309 @@ button:hover {
     }
 
 }
-```
+
+/* ========================================= */
+/* ENG-UNITE SECTION */
+/* ========================================= */
+
+.eng-unite-intro {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.eng-unite-tagline {
+    text-align: center;
+    font-size: 24px;
+    color: #52C2E1;
+    margin: 25px 0 50px;
+}
+
+
+/* ========================================= */
+/* ENG-UNITE CONTENT BLOCKS */
+/* ========================================= */
+
+.eng-unite-block {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.eng-unite-block h3 {
+    color: #52C2E1;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.eng-unite-block h4 {
+    margin-bottom: 8px;
+}
+
+.eng-unite-block h5 {
+    color: #52C2E1;
+    margin-bottom: 5px;
+}
+
+
+/* ========================================= */
+/* MISSION CARDS */
+/* ========================================= */
+
+.eng-unite-mission-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.eng-unite-mission-card {
+    padding: 20px;
+    background: #F7FEFF;
+    border-left: 4px solid #52C2E1;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eng-unite-mission-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ========================================= */
+/* ACTIVITY CARDS */
+/* ========================================= */
+
+.eng-unite-activity-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.eng-unite-activity-card {
+    padding: 20px;
+    background: #F7FEFF;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #E0E0E0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eng-unite-activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.activity-icon {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+/* ========================================= */
+/* ROLE SECTION */
+/* ========================================= */
+
+.eng-unite-role-highlight {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.eng-unite-role-highlight p {
+    background: #F7FEFF;
+    padding: 18px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.eng-unite-responsibilities {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.eng-unite-responsibilities li {
+    background: #F7FEFF;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border-left: 4px solid #52C2E1;
+}
+
+
+/* ========================================= */
+/* EVENT CARDS */
+/* ========================================= */
+
+.eng-event-card {
+    background: #F7FEFF;
+    border-radius: 12px;
+    margin-top: 25px;
+    overflow: hidden;
+    border: 1px solid #E0E0E0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eng-event-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.eng-event-header {
+    padding: 25px;
+    background: #52C2E1;
+}
+
+.eng-event-header h4 {
+    font-size: 23px;
+    margin: 8px 0;
+}
+
+.eng-event-header p {
+    margin: 0;
+}
+
+.eng-event-date {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.eng-event-content {
+    padding: 25px;
+}
+
+.eng-event-content ul {
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.eng-event-content ul li {
+    background: none;
+    padding: 4px;
+    margin: 0;
+}
+
+.eng-event-source a {
+    color: #52C2E1;
+    font-weight: bold;
+}
+
+
+/* ========================================= */
+/* INDUSTRY CONNECTIONS */
+/* ========================================= */
+
+.industry-connection-card {
+    background: #F7FEFF;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #52C2E1;
+}
+
+
+/* ========================================= */
+/* ACHIEVEMENTS */
+/* ========================================= */
+
+.eng-unite-achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.eng-unite-achievement-card {
+    background: #F7FEFF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.eng-unite-impact-highlight {
+    margin-top: 25px;
+    padding: 25px;
+    background: #52C2E1;
+    border-radius: 10px;
+}
+
+
+/* ========================================= */
+/* LEARNING */
+/* ========================================= */
+
+.eng-unite-learning-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.eng-unite-learning-card {
+    background: #F7FEFF;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #52C2E1;
+}
+
+
+/* ========================================= */
+/* FINAL ENG-UNITE STATEMENT */
+/* ========================================= */
+
+.eng-unite-final {
+    text-align: center;
+    background: #52C2E1;
+    padding: 45px 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.eng-unite-final h3 {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.eng-unite-final p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+}
+
+
+/* ========================================= */
+/* MOBILE RESPONSIVENESS */
+/* ========================================= */
+
+@media (max-width: 700px) {
+
+    .eng-unite-mission-grid,
+    .eng-unite-activity-grid,
+    .eng-unite-role-highlight,
+    .eng-unite-achievement-grid,
+    .eng-unite-learning-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .eng-unite-block {
+        padding: 20px;
+    }
+
+    .eng-event-header,
+    .eng-event-content {
+        padding: 20px;
+    }
+
+    .eng-unite-final {
+        padding: 35px 20px;
+    }
+
+}
